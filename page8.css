@@ -1,0 +1,118 @@
+/*
+TODO LIST:
+-Enlever le blanc des iamges
+*/
+em
+{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #E33939;
+	font-style: normal;
+}
+.imgfloat
+{
+	float:left;
+	margin: 10px;
+}
+.clearfloatimg
+{
+	clear:left;
+}
+h2
+{
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #333399;
+	border: 5px green dotted;
+	border-radius: 10px;
+
+}
+.maintitle
+{
+	text-align: center;
+	font-size: 30px;
+	color: #339900;
+	font-weight: bold;
+}
+h1
+{
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+	color: #FF0000;
+}
+.bordertitleh1
+{
+	border: 10px blue ridge;
+	border-radius: 100px;
+	box-shadow: 10px 10px 10px #33CCFF;
+	text-shadow: 7px 7px 5px #66CC66;
+}
+figure
+{
+	border: 5px #FF9900 solid;
+	box-shadow: 15px 15px 13px #FF9900;
+}
+.imgshadow
+{
+	box-shadow: 5px 5px 4px #FF9900;
+}
+a
+{
+	color: #993333;
+}
+a:hover
+{
+	text-decoration: underline;
+	font-style: italic;
+	color: #663333;
+}
+a:active
+{
+	text-decoration: underline;
+	font-style: italic;
+	color: #000000;
+	font-weight: bold;
+	background-color: #FFCC66;
+}
+a:visited
+{
+	color: #660066;
+}
+.java
+{
+	background-image: url("images/page8/java_logo_background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.c
+{
+	background: url("images/page8/C_logo_background.png") center no-repeat;
+}
+.python
+{
+	background: url("images/page8/python_logo_background.jpg") center no-repeat;
+}
+.html
+{
+	background: url("images/page8/html_logo_background.png") center no-repeat;
+}
+@font-face
+{
+    font-family: "Quicksand";
+    src: url("quicksand/Quicksand-Regular.otf") format("truetype");
+}
+body
+{
+	font-family: Quicksand, Arial, "Arial Black", Verdana, sans-serif;
+	background-color: #CCFFFF;
+	line-height: 150%;
+	font-size: 20px;
+}
+.code
+{
+	font-family: "Courier New", "Times New Roman", "sans-serif";
+	font-style: italic;
+}
